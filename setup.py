@@ -1,10 +1,8 @@
 from setuptools import setup
 
-from mdx_latex import __version__, __doc__
-
 setup(
     name = 'markdown2latex',
-    version = __version__,
+    version = "2.1",
     py_modules=['mdx_latex'],
     entry_points='''
     [console_scripts]
@@ -18,8 +16,10 @@ setup(
     author = 'Rufus Pollock (Open Knowledge Foundation)',
     url = 'http://www.okfn.org/okftext/',
     author_email = 'rufus [at] rufuspollock [dot] org',
-    description = __doc__.split()[0],
-    long_description = __doc__,
+    description = "Extension to python-markdown to support LaTeX (rather "
+		  "than html) output.",
+    long_description = "Extension to python-markdown to support LaTeX "
+		       "(rather than html) output.",
     license = 'MIT',
     keywords = 'latex markdown python',
     download_url = 'http://pypi.python.org/pypi/markdown2latex/',
