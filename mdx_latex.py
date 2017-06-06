@@ -72,7 +72,7 @@ import re
 import sys
 import markdown
 import xml.dom.minidom
-from urlparse import urlparse
+from urllib.parse import urlparse
 import httplib
 import os
 import tempfile
