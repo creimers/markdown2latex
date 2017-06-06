@@ -694,7 +694,7 @@ def main():
         tmpl_fo = file(options.template)
         out = template(tmpl_fo, out)
 
-    print out
+    print(out)
 
 if __name__ == '__main__':
     main()
